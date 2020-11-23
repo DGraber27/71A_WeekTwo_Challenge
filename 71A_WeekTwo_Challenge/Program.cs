@@ -12,6 +12,7 @@ namespace _71A_WeekTwo_Challenge
         static void Main(string[] args)
         {
             Greeter greeter = new Greeter();
+            Console.WriteLine("Please, type your name.");
             string name = Console.ReadLine();
             greeter.Hello(name);
             greeter.TimeOfDay();
